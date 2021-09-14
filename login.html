@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Login Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Login Form</legend>
+        <form>
+            <table class="t2"  cellspacing="6px">
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="login"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
